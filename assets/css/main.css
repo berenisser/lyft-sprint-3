@@ -25,11 +25,12 @@ ul{
 	padding: 0;
 	overflow: hidden;
 	background-color: #E54E79;
-
+	padding: 0 140px;
 }
 
 ul li{
 	display: inline-block;
+	float: right;
 }
 
 ul li a{
@@ -43,6 +44,15 @@ ul li a{
 li a:hover{
 	background-color: #E56385;
 	color: white;
+}
+
+.logo {
+	background: url(../img/logo-white.png);
+	float: left;
+	height: 56px;
+	width: 80px;
+	background-size: 100%;
+	margin-top: 6px;
 }
 
 /*Foto de bienvenida*/
