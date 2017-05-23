@@ -142,8 +142,17 @@ li a:hover{
 	padding: 30px;
 }
 
+.caja-start i {
+	color: #75726C;
+}
+
+.caja-nada{
+	display: none;
+}
+
 .x-coor, .y-coor {
 	display: inline-block;
+	font-size: 30px;
 	width: 40%;
 	padding: 10px;
 	border: none;
