@@ -72,6 +72,33 @@ li a:hover{
 	position: absolute;
 	top: 170px;
 	right: 0;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+/*Interior de Caja Blanca*/
+.caja-blanca h1{
+	text-transform: uppercase;
+	color: #00B2A9;
+}
+
+.sign-up{
+	text-transform: uppercase;
+	color: #75726C;
+} 
+
+.input-number{
+	display: block;
+	width: 100%;
+}
+.btn-driver{
+	display: block;
+	text-decoration: none;
+	border: none;
+	background-color: #E54E79;
+	color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 13px;
 }
 
 /*Seccion play azul*/
