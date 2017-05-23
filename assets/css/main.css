@@ -90,6 +90,11 @@ li a:hover{
 .input-number{
 	display: block;
 	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	margin-bottom: 10px;
+	background-color: transparent;
 }
 .btn-driver{
 	display: block;
@@ -99,10 +104,68 @@ li a:hover{
 	color: whitesmoke;
 	padding: 10px 20px;
 	border-radius: 13px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /*Seccion play azul*/
 .azul{
 	background-color: #00B2A9;
-	height: 610px;
+	
+	margin: 0;
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.azul h1{
+	background-color: #EDE9E2;
+	color: #75726C;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 33px;
+	font-weight: bold;
+	margin: 0 0 40px 0;
+	padding: 18px 0;
+}
+
+.caja-start{
+	background-color: #EDE9E2;
+	width: 600px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.x-coor, .y-coor {
+	display: inline-block;
+	width: 40%;
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	margin-bottom: 10px;
+	background-color: transparent;
+}
+
+.btn-start{
+	display: block;
+	text-decoration: none;
+	border: none;
+	background-color: #00B2A9;
+	color: whitesmoke;
+	width: 80%;
+	padding: 10px 20px;
+	border-radius: 13px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*Seccion Footer*/
+footer{
+	background-color: #75726C;
+	width: 100%;
+	height: 50px;
+}
+
+footer p{
+	color: whitesmoke;
+	margin: 0;
 }
