@@ -4,11 +4,9 @@ document.getElementById("btn-driver").addEventListener("click",function(){
 	var inputNumber = document.getElementById("input-number");
 	event.preventDefault(); //previene que la página salte al inicio
 	
-
 	if(validarFono(inputNumber)){
 		alert("Gracias por dar el primer paso para ser un socio conductor");
 	}
-
 });
 
 function validarFono(inputNumber){
@@ -29,10 +27,8 @@ function validarFono(inputNumber){
 //Extraigo los input coordenada
 var x_coor = document.getElementById("x-coor");
 var y_coor = document.getElementById("y-coor");
-var x = x_coor.value -1;
-var y = y_coor.value -1;
 
-//------------Desaparezco la caja con la petición de coordenadas y verifico-------------------------------------
+//---Desaparezco la caja con la petición de coordenadas y valido-------------------
 
 document.getElementById("btn-start").addEventListener("click",function(){
 	var x_coor = document.getElementById("x-coor");
@@ -41,7 +37,8 @@ document.getElementById("btn-start").addEventListener("click",function(){
 	
 	if(validarX(x_coor)){
 		if(validarY(y_coor)){
-			return true;
+			document.getElementById("caja-coor").classList.toggle("display-none");
+			document.getElementById("caja-juego").classList.toggle("display-yes");
 		}
 	}
 });

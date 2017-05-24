@@ -146,8 +146,15 @@ li a:hover{
 	color: #75726C;
 }
 
-.caja-nada{
+.caja-juego{
 	display: none;
+}
+
+.display-none {
+	display: none;
+}
+.display-yes {
+	display: inherit;
 }
 
 .x-coor, .y-coor {
