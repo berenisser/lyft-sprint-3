@@ -62,7 +62,6 @@ li a:hover{
 	background-size:cover;
 	margin: 0;
 	height: 630px;
-    text-align: center;
 }
 
 .caja-blanca{
@@ -93,8 +92,9 @@ li a:hover{
 	padding: 10px;
 	border: none;
 	border-bottom: solid 2px #c9c9c9;
-	margin-bottom: 10px;
+	margin: 14px 0;
 	background-color: transparent;
+	font-size: 20px;
 }
 .input-number:focus{
 	outline: 0;
@@ -109,6 +109,10 @@ li a:hover{
 	padding: 10px 20px;
 	border-radius: 13px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.p-info{
+	font-size: 12px;
 }
 
 /*Seccion play azul----------------------------------------*/
@@ -152,6 +156,7 @@ li a:hover{
 	background-color: #75726C;
 }
 
+
 /*clase creada en JS---------------------------------------*/
 .cajita{
 	width: 10%;
@@ -159,7 +164,12 @@ li a:hover{
 	box-sizing: border-box;
 	background-color: #75726C;
 	display: inline-block;
-	color: #75726C;
+	color: white;
+	/*color: #75726C;*/
+}
+
+.caja-rosa{
+	background-color: #E54E79;
 }
 
 .display-none {
@@ -202,10 +212,22 @@ li a:hover{
 footer{
 	background-color: #75726C;
 	width: 100%;
+	text-align: center;
 	height: 100px;
+	padding-top: 40px;
+	padding-bottom: 50px;
 }
+ footer p{
+ 	font-size: 15px;
+ 	color: whitesmoke;
+ 	text-align: center;
+ }
 
-footer p{
+footer i{
 	color: whitesmoke;
-	margin: 0;
+	margin: 0 auto;
+	padding: 5px;
+}
+footer i:hover{
+	color: #E56385;
 }
