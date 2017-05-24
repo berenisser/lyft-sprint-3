@@ -12,7 +12,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-/*Section Nav*/
+/*Section Nav--------------------------------------------------------*/
 
 nav{
 	width: 100%;
@@ -56,7 +56,7 @@ li a:hover{
 	margin-top: 6px;
 }
 
-/*Foto de bienvenida*/
+/*Foto de bienvenida-------------------------------------------*/
 .caja-bienvenida {
 	background: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg) 50% 50% / 100% no-repeat fixed;
 	background-size:cover;
@@ -76,7 +76,7 @@ li a:hover{
 	box-sizing: border-box;
 }
 
-/*Interior de Caja Blanca*/
+/*Interior de Caja Blanca--------------------------------------*/
 .caja-blanca h1{
 	text-transform: uppercase;
 	color: #00B2A9;
@@ -111,7 +111,7 @@ li a:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/*Seccion play azul*/
+/*Seccion play azul----------------------------------------*/
 .azul{
 	background-color: #00B2A9;
 	
@@ -135,8 +135,8 @@ li a:hover{
 
 .caja-start{
 	background-color: #EDE9E2;
-	width: 800px;
-	height: 200px;
+	width: 950px;
+	
 	margin: 0 auto;
 	box-sizing: border-box;
 	padding: 30px;
@@ -146,8 +146,20 @@ li a:hover{
 	color: #75726C;
 }
 
+/*Seccion caja gris del juego-------------------------------*/
 .caja-juego{
 	display: none;
+	background-color: #75726C;
+}
+
+/*clase creada en JS---------------------------------------*/
+.cajita{
+	width: 10%;
+	height: 89px;
+	box-sizing: border-box;
+	background-color: #75726C;
+	display: inline-block;
+	color: #75726C;
 }
 
 .display-none {
@@ -171,6 +183,8 @@ li a:hover{
 	outline: 0;
 }
 
+
+/*------Boton Start-------------------------------------------*/
 .btn-start{
 	margin: 20px auto;
 	display: block;
@@ -184,7 +198,7 @@ li a:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/*Seccion Footer*/
+/*Seccion Footer----------------------------------------------*/
 footer{
 	background-color: #75726C;
 	width: 100%;

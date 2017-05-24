@@ -67,4 +67,33 @@ function validarY(y_coor){
 	}
 }
 
-//------------------------------------------------------------------------
+//-----Seccion de creacion de tablero------------------
+
+//Defino el tablero
+var tablero = [];
+for (i=0 ; i<6 ; i++){
+	tablero.push([0,0,0,0,0,0,0,0,0,0]);
+}
+
+var cajaJuego= document.getElementById("caja-juego");
+
+//Variables temporales
+var fila, cajita;
+
+//Recorro el arreglo para dibujar el tablero
+for(var i = 0; i<tablero.length; i++){
+  fila = document.createElement("div");
+  
+  for(var j = 0; j<tablero[i].length; j++){
+    cajita = document.createElement("div");
+    cajita.innerHTML = tablero[i][j];
+    cajita.classList.add("cajita")
+    fila.appendChild(cajita);
+  }
+  cajaJuego.appendChild(fila);
+}
+
+
+
+//Ingreso el auto en la posicion 3,5 
+tablero[3][5] = "A";
